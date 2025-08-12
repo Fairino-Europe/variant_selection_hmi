@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fairino Europe</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="ws_styles.css">
+</head>
+<body>
+
+<div class="header">
+  <div><a href="https://fairino.support" target="_blank">Fairino Europe</a></div>
+  <div data-i18n="Variant selection"></div>
+  <div>
+    <img class="page_icon" id="page_icon_home" src="./icon_home.png">
+    <img class="page_icon" id="page_icon_pattern" src="./icon_pattern.png">
+  </div>
+</div>
+
+<!-- page home -->
+<div class="page" id="home">
+
+<div class="content">
+  <div class="ws_label" data-i18n="Variant"></div>
+  <button class="ws_button" id="button_R1.1" data-i18n="Button 1"></button>
+  <div class="ws_label" id="label_D1.1" data-i18n="Status 1"></div>
+</div>
+
+<div class="content">
+  <div class="ws_label" id="value_D0">-</div>
+  <button class="ws_button" id="button_R1.2" data-i18n="Button 2"></button>
+  <div class="ws_label" id="label_D1.2" data-i18n="Status 2"></div>
+</div>
+
+</div>
+
+<!-- page pattern -->
+<div class="page" id="pattern">
+
+<div class="tab">
+  <button class="tablink" id="link_0" style="display:none;">&nbsp</button>
+  <button class="tablink" id="link_1" data-i18n="Variant 1"></button>
+  <button class="tablink" id="link_2" data-i18n="Variant 2"></button>
+  <button class="tablink" id="link_3" data-i18n="Variant 3"></button>
+  <button class="tablink" id="link_4" data-i18n="Variant 4"></button>
+  <button class="tablink" id="link_5" data-i18n="Variant 5"></button>
+  <button class="tablink" id="link_6" data-i18n="Variant 6"></button>
+</div>
+
+<div class="tabcontent" id="content_0">
+  <img src="./variant_none.png" width="600px">
+</div>
+<div class="tabcontent" id="content_1">
+  <img src="./variant1.png" width="600px">
+</div>
+<div class="tabcontent" id="content_2">
+  <img src="./variant2.png" width="600px">
+</div>
+<div class="tabcontent" id="content_3">
+  <img src="./variant3.png" width="600px">
+</div>
+<div class="tabcontent" id="content_4">
+  <img src="./variant4.png" width="600px">
+</div>
+<div class="tabcontent" id="content_5">
+  <img src="./variant5.png" width="600px">
+</div>
+<div class="tabcontent" id="content_6">
+  <img src="./variant6.png" width="600px">
+</div>
+
+</div>
+
+<div class="footer">
+  <div style="margin-left: auto;" data-i18n="version"></div>
+</div>
+
+<script src="modbus_json.js"></script>
+<script src="lang_en.js"></script>
+<script src="ws_script.js"></script>
+<script src="web_script.js"></script>
+
+</body>
+</html> 
